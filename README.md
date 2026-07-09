@@ -1,6 +1,6 @@
 # Working with APIs & Fetch 🧠
 
-how the frontend talks to a server, and gets data back
+How the frontend talks to a server, and gets data back
 
 Fetch always felt like a black box before this session — now it's just a conversation between two computers, with rules that actually make sense.
 
@@ -234,12 +234,5 @@ app.post("/products", (req, res) => {
 
 ---
 
-## Live demo on the PokeAPI
-
-We tried this live in the browser console, using the free PokeAPI to fetch real Pokémon data and actually watch the request/response cycle happen in real time — no key needed, good for practicing fetch without any setup hassle.
-
----
-
-## Closing note
-
+## Looking Back
 Before today, fetch felt like magic — now it's just a conversation, one request, one response, following rules that actually make sense. The part that'll stick the longest is checking `res.ok` myself, since fetch stays quiet even when something's actually broken.
