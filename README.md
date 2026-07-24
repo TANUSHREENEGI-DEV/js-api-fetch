@@ -236,3 +236,7 @@ app.post("/products", (req, res) => {
 
 ## Looking Back
 Before today, fetch felt like magic — now it's just a conversation, one request, one response, following rules that actually make sense. The part that'll stick the longest is checking `res.ok` myself, since fetch stays quiet even when something's actually broken.
+
+---
+
+~**Tanushree**🪼
